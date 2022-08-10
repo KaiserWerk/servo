@@ -1,13 +1,5 @@
 package servo
 
-type LinuxServiceType uint8
-
-const (
-	TypeSystemD LinuxServiceType = 1 << iota
-)
-
-type LinuxServiceConfig struct{}
-
 func startService(name string) error {
 
 }

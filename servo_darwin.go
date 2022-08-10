@@ -1,7 +1,5 @@
 package servo
 
-type DarwinServiceConfig struct{}
-
 func startService(name string) error {
 
 }

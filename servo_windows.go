@@ -5,8 +5,6 @@ import (
 	"golang.org/x/sys/windows/svc/mgr"
 )
 
-type WindowsServiceConfig struct{}
-
 func (wsc *WindowsServiceConfig) toMgrConfig() mgr.Config {
 	return mgr.Config{
 		// TODO
