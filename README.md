@@ -3,6 +3,8 @@
 A pure Go library for handling system services/daemons. This currently works for
 Windows, Linux (systemd) and Darwin (macOS).
 
+Import: This is work in progress.
+
 ## API
 
 ``servo.StartService(name string) error`` starts the service with the supplied name.
